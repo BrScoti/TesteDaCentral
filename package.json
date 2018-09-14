@@ -1,0 +1,25 @@
+{
+  "name": "testecentral",
+  "version": "1.0.0",
+  "description": "Teste desenvolvido para admissão na empresa.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel ./src/main.js -o ./public/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrScoti/TesteDaCentral.git"
+  },
+  "author": "Bruno Scoti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrScoti/TesteDaCentral/issues"
+  },
+  "homepage": "https://github.com/BrScoti/TesteDaCentral#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0"
+  }
+}
